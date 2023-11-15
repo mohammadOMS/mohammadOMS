@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+</head>
+
+<body>
+    <section>
+        <div class="form_box">
+            <div class="form_value">
+                <form action="../../account/index.html">
+                    <h1 class="title">ورود</h1>
+                    
+                    <div class="inputbox">
+                        <input type="text" name="user-email" id="user_email" class="inputs" required>
+                        <label for="user_email">ایمیل</label>
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+            
+                    <div class="inputbox">
+                        <input type="password" name="user-password" id="user_password" class="inputs" required>
+                        <label for="user_password">رمز عبور</label>
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </div>
+            
+                    <div class="remember">
+                        <input type="checkbox" name="user-remember" id="user_remember">
+                        <label for="user_remember">مرا به خاطر بسپار</label>
+                    </div>
+            
+                    <div>
+                        <button type="submit" class="btn">ورود</button>
+                    </div>
+                    
+                    <div class="remember">
+                        <p>رمز عبور خود را فراموش کرده اید؟ <a href="./forget/index.html" class="forget">بازیابی رمز عبور</a></p>
+                    </div>
+
+                    <div class="singup">
+                        <span class="singup__link">اکانت ندارید؟</span>
+                        <a href="../singup/index.html" class="singup__in">ثبت نام</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

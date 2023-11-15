@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup</title>
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+</head>
+
+<body>
+    <section>
+        <div class="form_box">
+            <div class="form_value">
+                <form action="../../account/index.html">
+                    <h1 class="title">ثبت نام</h1>
+                    
+                    <div class="inputbox">
+                        <input type="text" name="user-email" id="user_email" class="inputs" required>
+                        <label for="user_email">ایمیل</label>
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+            
+                    <div class="inputbox">
+                        <input type="tel" name="user-phone" id="user_phone" class="inputs" required>
+                        <label for="user_phone">شماره موبایل</label>
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+            
+                    <div class="inputbox">
+                        <input type="password" name="user-password" id="user_password" class="inputs" required>
+                        <label for="user_password">رمز عبور</label>
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </div>
+            
+                    <div class="inputbox">
+                        <input type="password" name="user-password-repeat" id="user_password_repeat" class="inputs" required>
+                        <label for="user_password_repeat">تکرار رمز عبور</label>
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </div>
+            
+                    <div class="agreement">
+                        <input type="checkbox" name="accept-agreement" id="accept_agreement" required>
+                        <label for="accept_agreement">شرایط و قوانین <a href="../../index.html" class="coffe__link">گلدن کافی</a> میپذیرم.</label>
+                    </div>
+            
+                    <div>
+                        <button class="btn">ثبت نام</button>
+                    </div>
+            
+                    <div class="singup">
+                        <span class="singup__link">قبلا ثبت نام کردید؟</span>
+                        <a href="../login/index.html" class="singup__in">ورود</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
